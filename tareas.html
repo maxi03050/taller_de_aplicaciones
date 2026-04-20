@@ -6,6 +6,7 @@
   <title>Mis Tareas Semanales</title>
   <link rel="stylesheet" href="body.css" />
   <script src="java.js" defer></script>
+
   <style>
     .top-bar {
       position: absolute;
@@ -50,8 +51,17 @@
       font-weight: 600;
       color: #fff;
     }
+
+    /* Subtema */
+    .semana-sub {
+      font-size: 0.9rem;
+      opacity: 0.85;
+      margin-top: 5px;
+      text-align: center;
+    }
   </style>
 </head>
+
 <body>
 
   <div class="left-bar">
@@ -70,8 +80,77 @@
   </header>
 
   <main>
-    <div class="semanas-grid" id="semanasContainer"></div>
+
+    <!-- UNIDAD I -->
+    <section>
+      <h2>📁 UNIDAD I: Programación Orientada a Objetos</h2>
+      <p>Selecciona una semana para ver las practicas</p>
+
+      <div class="semanas-grid">
+
+        <a href="semana1.html" class="semana-card">
+          <div class="semana-icon">🧩</div>
+          <div class="semana-title">Semana 1</div>
+          <div class="semana-sub">Apache Maven</div>
+        </a>
+
+        <a href="semana2.html" class="semana-card">
+          <div class="semana-icon">⚙️</div>
+          <div class="semana-title">Semana 2</div>
+          <div class="semana-sub">Métodos</div>
+        </a>
+
+        <a href="semana3.html" class="semana-card">
+          <div class="semana-icon">💡</div>
+          <div class="semana-title">Semana 3</div>
+          <div class="semana-sub">Programación Orientada a Objetos</div>
+        </a>
+
+        <a href="semana4.html" class="semana-card">
+          <div class="semana-icon">🗂️</div>
+          <div class="semana-title">Semana 4</div>
+          <div class="semana-sub">Modelo Vista Controlador</div>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- UNIDAD II -->
+    <section>
+      <h2>📁 UNIDAD II: Componentes de una Aplicación</h2>
+      <p>Selecciona una semana para ver las practicas</p>
+
+      <div class="semanas-grid">
+
+        <a href="semana5.html" class="semana-card">
+          <div class="semana-icon">🔗</div>
+          <div class="semana-title">Semana 5</div>
+          <div class="semana-sub">(Próximamente)</div>
+        </a>
+
+        <a href="semana6.html" class="semana-card">
+          <div class="semana-icon">📊</div>
+          <div class="semana-title">Semana 6</div>
+          <div class="semana-sub">(Próximamente)</div>
+        </a>
+
+        <a href="semana7.html" class="semana-card">
+          <div class="semana-icon">🛠️</div>
+          <div class="semana-title">Semana 7</div>
+          <div class="semana-sub">(Próximamente)</div>
+        </a>
+
+        <a href="semana8.html" class="semana-card">
+          <div class="semana-icon">🚀</div>
+          <div class="semana-title">Semana 8</div>
+          <div class="semana-sub">(Próximamente)</div>
+        </a>
+
+      </div>
+    </section>
+
     <a href="index.html" class="back-button">← Volver a Inicio</a>
+
   </main>
 
   <script>
